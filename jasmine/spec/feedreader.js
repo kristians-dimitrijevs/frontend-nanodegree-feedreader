@@ -93,7 +93,7 @@ $(function() {
       });
 
       it('there is atleast a single entry element in feed container', function() {
-        expect($(.feed .entry).length).toBeGreatherThan(0);
+        expect($('.feed .entry').length).toBeGreatherThan(0);
       })
     });
     /* TODO: Write a new test suite named "New Feed Selection" */
